@@ -95,3 +95,44 @@ body {
     margin-top: 1em;
     display: inline-block;
 }
+
+.dispositivos {
+    text-align: center;
+    font-weight: 700;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    margin-bottom: 1em;
+}
+
+.dispositivos__lista {
+    font-size: 32px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.lista__link {
+    text-decoration: none;
+    margin-left: 2em;
+    color: var(--branco-principal);
+}
+
+.rodape__texto {
+    font-size: 14px;
+    color: var(--cinza-terciario);
+}
